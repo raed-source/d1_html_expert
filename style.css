@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    border: 1px solid;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(60, 60, 217);
+}
+nav {
+    background-color: red;
+    margin: 30px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .menu {
+    display: inline-block;
+    padding: 10px;
+}
+input {
+    border: none;
+    border-radius: 20px;
+    /* max-height: 50px; */
+    font-size: 25px;
+}
